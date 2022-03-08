@@ -1,5 +1,5 @@
 # PROJECT UJIKOM KASIR
-Deskripsi :
+Deskripsi : <br>
 Di dalam Aplikasi Kasir berbasis Website ini terdapat 3 User yang memiliki role yang berbeda (Multi Level). Diantaranya ada level Admin, Manager & Kasir, di ketiga roe tersebut memiliki akses yang berbeda dengan masing - masing user yang lainnya. Untuk fitur tiap role antara lain sebagai berikut :
 
 ### KASIR
