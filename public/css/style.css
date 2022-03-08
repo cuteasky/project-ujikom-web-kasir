@@ -1,0 +1,74 @@
+body {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ============ desktop view ============ */
+.navbar {
+  background-color: rgba(105, 41, 11, 0.534);
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#kasir .card {
+  border: none;
+  background: none;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 5px -1px rgba(190, 113, 11, 0.445);
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(190, 113, 11, 0.445);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(190, 113, 11, 0.445);
+}
+
+#kasir .card-body {
+  background: rgba(105, 41, 11, 0.445);
+  border-radius: 1rem;
+}
+
+#kasir .btn-tambah {
+  background-color: rgba(142, 144, 13, 0.274);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#kasir .btn-tambah:hover {
+  background-color: rgba(144, 87, 13, 0.89);
+}
+
+#kasir .btn-bayar {
+  color: #ffffff;
+  background-color: rgba(233, 138, 14, 0.876);
+  font-weight: 600;
+}
+
+#kasir .btn-bayar:hover {
+  background-color: rgba(255, 145, 0, 0.876);
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #ffffff;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  .dropdown-toggle::after {
+    content: none;
+  }
+}
+/* ============ desktop view .end// ============ */
